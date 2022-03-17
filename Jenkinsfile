@@ -6,6 +6,6 @@ node {
                 sh 'mvn clean package'
             }
     stage('ArchiveResults') {
-        archiveArtifacts '**/*.war'
+        archiveArtifacts '*'
     }
 }
