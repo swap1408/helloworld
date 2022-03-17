@@ -1,5 +1,5 @@
 node {
-    stage(Preparation) {
+    stage('Preparation') {
         git branch: 'master', url: 'https://github.com/swap1408/helloworld.git'
     }
     stage('Build') {
